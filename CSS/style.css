@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Economica&family=Hedvig+Letters+Sans&family=Nova+Square&family=Poppins&display=swap');
+#base {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("/tinypng/watercolor.jpg");
+    background-attachment: fixed;
+    padding-top: 55px;
+    text-align: justify;
+}
+#base_second{
+    background-image: url("/tinypng/watercolor.jpg");
+    background-attachment: fixed;
+    /* padding-top: 30px; */
+}
+#thirdbase{
+    background-image: url("/tinypng/watercolor.jpg");
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #333;
+    position: fixed;
+    top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.container_resume, .container_webapp, .container_otherwebapp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #333;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.one{
+    padding-right: 30px;
+}
+.six:hover{
+    border-right: 5px dotted grey;
+}
+.eight:hover{
+    border-right: 5px dotted greenyellow ;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sample {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#g-footer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+.five{
+    padding-right: 100px;
+    font-size: 1.5rem;
+}
+#second_page {
+    font-family: 'Nova Square', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("/tinypng/watercolor.jpg");
+    background-attachment: fixed;
+    padding-top: 55px;
+}
+#specialheading{
+    color: white;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+header {
+    text-align: center;
+}
+
+hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 2px solid #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.objective a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.objective a:hover {
+    text-decoration: underline;
+}
+#trying{
+    display: flex;
+}
+#othermost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* text-align: center; */
+    padding-top: 52px;  
+    text-align: center;    
+}
+.outerlayer {
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "one one one one"
+    "one one one one"
+    "two two three three"
+    "two two extra extra"
+    "four four five five"
+    "six six five five";
+    padding-left: 255px;
+    /* justify-content: center;
+    align-items: center; */
+    grid-gap: 20px;
+    padding-bottom: 20px;
+    /* -------- */
+    max-width: 1250px;
+    margin: auto;
+}
+.majorproject{
+    grid-area: one;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Nova Square';
+    border-radius: 8px;
+    padding-top: 10px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.majorproject:hover{
+    background-image: url(/tinypng/annie-spratt-PtrGWQG2YQY-unsplash.jpg);
+    background-size: cover;
+    color: #000;
+    transform: scale(1.05);
+}
+.secondproject{
+    grid-area: two;
+    max-width: fit-content;
+    max-height: fit-content;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-family: 'Hedvig Letters Serif';
+    border-radius: 16px;
+    padding-top: 10px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.secondproject:hover{
+    background-image: url(/tinypng/codioful-formerly-gradienta-7brhZmwXn08-unsplash.jpg);
+    background-size: cover;
+    color: #000;
+    transform: scale(1.05);
+}
+.thirdproject{
+    grid-area: five;;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Hedvig Letters Serif';
+    border-radius: 16px;
+    padding-top: 10px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 1s ease-in-out;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.thirdproject:hover{
+    background-image: url(/tinypng/codioful-formerly-gradienta-rKv4HduvzIE-unsplash.jpg);
+    background-size: cover;
+    color: #000;
+    transform: scale(1.05);
+}
+.inlabchallenge1{
+    grid-area: three;
+    max-width: fit-content;
+    max-height: fit-content;
+    overflow: hidden;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.inlabchallenge1:hover{
+    background-image: url(/tinypng/daniele-levis-pelusi-oawcJixMZIk-unsplash.jpg);
+    background-size: cover;
+}
+.inlabchallengeone{
+    margin-right: 20px;
+}
+.inlabchallenge2{
+    grid-area: extra;
+    max-width: fit-content;
+    max-height: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 1s ease-in-out;
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.inlabchallenge2:hover{
+    background-image: url(/tinypng/pexels-eberhard-grossgasteiger-2088205.jpg);
+    background-size: cover;
+    transform: scale(1.05);
+}
+.inlabchallenge3{
+    grid-area: four;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Nova Square';
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 1s ease-in-out;
+}
+.inlabchallenge3:hover{
+    background-image: url(/tinypng/annie-spratt-PtrGWQG2YQY-unsplash.jpg);
+    background-size: cover;
+    transform: scale(1.05);
+}
+.inlabchallenge4{
+    grid-area: six;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.inlabchallenge4:hover{
+    background-image: url(/tinypng/pexels-eberhard-grossgasteiger-2088205.jpg);
+    background-size: cover;
+    transform: scale(1.05);
+}
+#otherwebapps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* text-align: center; */
+    padding-top: 52px;
+}
+#outerlayer{
+    max-width: 650px; 
+    display: flex;
+    margin: auto;
+    border: 5px double gray;
+}
+
+
+.otherwebapp{
+    max-width: 650px; 
+    display: flex;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.otherwebapp:hover{
+    border: 5px double gray;
+    background-color: lightyellow;
+}
+.otherwebapp2{
+    max-width: 650px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+}
+.otherwebapp2:hover{
+    border: 5px double gray;
+    background-color: lightyellow;
+}
+#g-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#g-footer a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+@media screen and (max-width:950px){
+    .outerlayer{
+        padding-left: 145px;
+    }
+}
+@media screen and (max-width:865px){
+    .container_resume{
+        font-size: 1.6rem;
+    }
+    .container{
+        font-size: 1.6rem;
+    }
+    .container_webapp{
+        font-size: 1.6rem;
+    }
+    .six:hover{
+        border-right: none;
+    }
+    .eight:hover{
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    #base{
+        padding-top: 90px;
+        margin: revert;
+    }
+    #thirdbase{
+        padding-top: 95px;
+    }
+    .resume-container {
+        padding: 10px;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_resume{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 0px; */
+        margin: 0px;
+        padding: 0px;
+    }
+    .container_webapp, .container_resume{
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+    main{
+        padding-top: 75px;
+    }
+    .outerlayer{
+        padding-left: 85px;
+    }
+    .inlabchallenge1:hover, .inlabchallenge2:hover, .inlabchallenge3:hover, .inlabchallenge4:hover, .majorproject:hover, .secondproject:hover, .thirdproject:hover{
+        transform: scale(1);  
+    }
+    .inlabchallenge1, .inlabchallenge2, .inlabchallenge3, .inlabchallenge4, .majorproject, .secondproject, .thirdproject{
+        cursor: pointer;
+        transition:  1s none;
+    }
+    .five{
+        margin-bottom: 20px; /* Adjust the value as needed */
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    #g-footer{
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+    }
+    #base_second{
+        padding-top: 90px;
+    }
+    .otherwebapp{
+        flex-direction: column;
+    }
+    .otherwebapp2{
+        flex-direction: column;
+    }
+    .six{
+        border-right: none;
+    }
+    .eight{
+        border-right: none;
+    }
+   
+}
+@media screen and (max-width: 600px) {
+    .resume-container {
+        padding: 10px;
+    }
+    .outerlayer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "one one"
+        "one one"
+        "extra extra"
+        "two two"
+        "two two"
+        "three three"
+        "five five"
+        "five five"
+        "four four"
+        "six six";
+        padding-left: 10px;
+    }
+}
